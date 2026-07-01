@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mira-simpeg
-  version: "0.23.0.2"
+  version: "0.25.0.1"
   python_min: '3.10'
   module_name: simpeg
 
@@ -11,8 +11,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://github.com/MiraGeoscience/${{ module_name }}/archive/v${{ version }}.tar.gz 
-  sha256: 6BBC23A584E08204B57F0C14C55297392DC979D1D5A39BCF9C9E9547249333FD
+  url: https://github.com/MiraGeoscience/${{ module_name }}/archive/v${{ version }}.tar.gz
+  sha256: 3b4b87887eef7fc0855cca251e2723acc57cdd08fe1cc7f4bfa2d1f55f4d17bc
 
 build:
   number: 0
